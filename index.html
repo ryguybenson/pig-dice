@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <h1>Pig Dice</h1>
+    <div class="container">
+      <table id="outer-container">
+        <tr>
+          <td>
+            <h3>PLAYER</h3>
+            <h3 id="player-score">0</h3>
+          </td>
+          <td width="200px">
+          </td>
+          <td>
+            <h3>COMPUTER</h3>
+            <h3 id="computer-score">0</h3>
+          </td>
+        </tr>
+      </table>
+      <div id="roll-container">
+        <h5 id="roll-text">YOU ROLLED</h5>
+        <h5 id="roll-number">-</h5>
+      </div>
+      <div id="roll-buttons">
+        <button id="roll" type="button" name="roll">ROLL</button>
+        <button id="hold" type="button" name="hold">HOLD</button>
+      </div>
+      <h3 id="turn">PLAYER'S TURN</h3>
+      <h5 id="tempScore">CURRENT POINTS: 0</h5>
+    </div>
+  </body>
+</html>

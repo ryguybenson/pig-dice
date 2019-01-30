@@ -1,0 +1,49 @@
+
+button {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#roll-container {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#roll-buttons {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#turn {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tempScore {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
